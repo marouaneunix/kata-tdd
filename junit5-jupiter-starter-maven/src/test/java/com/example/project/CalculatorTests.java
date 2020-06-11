@@ -20,7 +20,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 class CalculatorTests {
 
 	@Test
-	@DisplayName("1 + 1 = 2")
+	@DisplayName("empty = 0")
 	void addsTwoNumbers() {
 		Calculator calculator = new Calculator();
 
